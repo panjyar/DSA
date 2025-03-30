@@ -14,7 +14,7 @@ void maxheapify(int arr[] , int n , int i){
 
     if(largest != i){
         swap(arr[largest] , arr[i]);
-        maxheapify(arr,n,i);
+        maxheapify(arr,n,largest);
     }
 }
 
